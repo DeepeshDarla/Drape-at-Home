@@ -2,6 +2,9 @@ const menu=document.querySelector('.menu');
 const mobile=document.querySelector('.mobile-nav');
 if(menu&&mobile){menu.addEventListener('click',()=>{mobile.classList.toggle('open');menu.setAttribute('aria-expanded',mobile.classList.contains('open'));});mobile.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>mobile.classList.remove('open')))}
 
+const preferredDate=document.getElementById('preferred-date');
+if(preferredDate){preferredDate.min=new Date().toISOString().split('T')[0];}
+
 const homeVisitForm=document.getElementById('home-visit-form');
 const formNotice=document.getElementById('form-notice');
 if(homeVisitForm){
