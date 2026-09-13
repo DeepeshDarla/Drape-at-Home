@@ -2,16 +2,15 @@
 
 Static, responsive website for Drape at Home, Mysuru.
 
-## Fastest free launch
-1. Create a free account at Netlify.
-2. Unzip this folder.
-3. In Netlify, use **Add new project → Deploy manually** and drag the unzipped folder into the deploy area.
-4. Netlify will provide a free `*.netlify.app` address.
-5. In Netlify → Forms, confirm the `home-visit` form and enable email notifications.
-6. Replace the placeholder WhatsApp/contact workflow once the business number is available.
+## Deployment
+
+This repo is connected to Netlify for continuous deployment: pushes to `main`
+build and deploy automatically to https://drapehomes.netlify.app.
+
+- Netlify → Forms has the `home-visit` form enabled; confirm email notifications are on.
+- Netlify project settings → Build & deploy → Continuous deployment shows the
+  GitHub link and build status.
 
 ## Before launch
 - Replace remote Unsplash imagery with Drape at Home's own project/product photos when available.
-- Add the actual WhatsApp number to the CTA links.
-- Update canonical URLs and `sitemap.xml` to the final free Netlify URL (or later custom domain).
 - Connect Google Search Console and Google Business Profile after launch.
