@@ -2,6 +2,15 @@ const menu=document.querySelector('.menu');
 const mobile=document.querySelector('.mobile-nav');
 if(menu&&mobile){menu.addEventListener('click',()=>{mobile.classList.toggle('open');menu.setAttribute('aria-expanded',mobile.classList.contains('open'));});mobile.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>mobile.classList.remove('open')))}
 
+document.querySelectorAll('.faq-q').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    const expanded=btn.getAttribute('aria-expanded')==='true';
+    const panel=document.getElementById(btn.getAttribute('aria-controls'));
+    btn.setAttribute('aria-expanded',String(!expanded));
+    if(panel){panel.classList.toggle('is-open',!expanded);}
+  });
+});
+
 const preferredDate=document.getElementById('preferred-date');
 if(preferredDate){preferredDate.min=new Date().toISOString().split('T')[0];}
 
