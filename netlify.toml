@@ -1,6 +1,26 @@
 [build]
   publish = "."
 
+[[redirects]]
+  from = "/curtains-mysore"
+  to = "/curtains"
+  status = 301
+
+[[redirects]]
+  from = "/curtains-mysore.html"
+  to = "/curtains"
+  status = 301
+
+[[redirects]]
+  from = "/blinds-mysore"
+  to = "/blinds"
+  status = 301
+
+[[redirects]]
+  from = "/blinds-mysore.html"
+  to = "/blinds"
+  status = 301
+
 [[headers]]
   for = "/*"
   [headers.values]
