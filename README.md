@@ -1,6 +1,6 @@
-# Drape at Home — Free Website
+# The Draper — Free Website
 
-Static, responsive website for Drape at Home, Mysuru.
+Static, responsive website for The Draper, Mysuru.
 
 ## Deployment
 
@@ -12,5 +12,5 @@ build and deploy automatically to https://drapehomes.netlify.app.
   GitHub link and build status.
 
 ## Before launch
-- Replace remote Unsplash imagery with Drape at Home's own project/product photos when available.
+- Replace remote Unsplash imagery with The Draper's own project/product photos when available.
 - Connect Google Search Console and Google Business Profile after launch.

@@ -1,4 +1,4 @@
-# Drape at Home — Website SEO & Content Audit
+# The Draper — Website SEO & Content Audit
 **Site audited:** https://drapehomes.netlify.app (live, 10 pages checked + 4 inspiration guides)
 **Date:** September 2026
 **Purpose:** Prioritized punch-list for implementation in Claude Code
@@ -92,40 +92,40 @@ Format: current state → recommended change. Where current is already good, mar
 ### 3.1 Homepage `/`
 | Element | Current | Recommendation |
 |---|---|---|
-| Title | "Made-to-measure curtains & blinds in Mysore \| Drape at Home" | ✅ Matches primary target exactly. Keep. |
+| Title | "Made-to-measure curtains & blinds in Mysore \| The Draper" | ✅ Matches primary target exactly. Keep. |
 | Meta description | "Made-to-measure curtains, blinds and motorised window coverings for Mysore homes. Free home consultation, expert measuring and professional installation." | ✅ Good length/CTR bait. Consider working in "Mysuru" once: *"...for homes across Mysore and Mysuru. Free home consultation..."* |
 | H1 | "Made-to-measure curtains & blinds." | Good but generic once you scroll past the eyebrow text. Consider: **"Made-to-measure curtains & blinds in Mysore."** (fold the eyebrow "Window coverings · Mysore" into the H1 itself so the keyword survives if the eyebrow is ever removed/redesigned) |
 | H2 structure | "Designed around your windows" → "A simpler way to dress your windows" → "This is what a home visit actually looks like" → "What forty years in the trade gets you" → "Let's make your windows feel right" | ✅ Logical, scannable, no stuffing. No change needed. |
 | Canonical | `.../index.html` | Fix to `https://drapehomes.netlify.app/` |
 | OG title/description | Not confirmed — verify present | Set `og:title` = page title, `og:description` = meta description, `og:image` = hero-consultation.jpg, `og:url` = clean homepage URL |
-| Image alt text | "Drape at Home consultant showing curtain fabric samples to a couple at home" ✅ | Good. The four process images (`process-visit.jpg`, `process-design.jpg`, `process-measure.jpg`, `process-install.jpg`) have decent alt text already — add "in Mysore" to at least one (e.g., process-measure: *"Consultant measuring a window for made-to-measure curtains in a Mysore home"*) rather than all four, to avoid repetition. |
+| Image alt text | "The Draper consultant showing curtain fabric samples to a couple at home" ✅ | Good. The four process images (`process-visit.jpg`, `process-design.jpg`, `process-measure.jpg`, `process-install.jpg`) have decent alt text already — add "in Mysore" to at least one (e.g., process-measure: *"Consultant measuring a window for made-to-measure curtains in a Mysore home"*) rather than all four, to avoid repetition. |
 | Internal links | Links to /curtains, /blinds, /motorisation, /contact | Add one contextual link to `/inspiration` or a specific guide (e.g., near "What forty years in the trade gets you," link to `/choosing-the-right-curtains`) so the homepage passes link equity into the guide content, not just category pages. |
 
 ### 3.2 `/curtains`
 | Element | Current | Recommendation |
 |---|---|---|
-| Title | "Curtains in Mysore \| Drape at Home" | ✅ Good. Optionally: "Made-to-Measure Curtains in Mysore & Mysuru \| Drape at Home" if you want this page to also absorb `/curtains-mysore` under Option A above. |
+| Title | "Curtains in Mysore \| The Draper" | ✅ Good. Optionally: "Made-to-Measure Curtains in Mysore & Mysuru \| The Draper" if you want this page to also absorb `/curtains-mysore` under Option A above. |
 | Meta description | ✅ Covers plain/textured/printed/embroidered/velvet + sheers | Add "Mysuru" once and a CTA verb: *"...for Mysore & Mysuru homes. Book a free home visit."* |
-| H1 | "Curtains made for your home." | Consider "Curtains in Mysore, made for your home." to put the keyword in the H1 itself (currently only in the eyebrow "Drape at Home · Mysore"). |
+| H1 | "Curtains made for your home." | Consider "Curtains in Mysore, made for your home." to put the keyword in the H1 itself (currently only in the eyebrow "The Draper · Mysore"). |
 | H2s | "Explore the collection" → "Chosen in your home. Made for your windows" → "Not sure what will work?" | ✅ Fine structurally. Minor: the fabric-type headings (Printed, Self-Textured, Plain & Solid, Embroidered, Rich Weaves, Embroidered Sheers, Solid Sheers, Patterned Sheers) are currently H2-level per the markdown — confirm in code they're actually H3s under the "Explore the collection" H2, not sibling H2s, to keep one clear H1→H2→H3 hierarchy. |
 | Canonical | `.../curtains.html` | Fix to `.../curtains` |
-| Alt text | Mostly good and descriptive (e.g., "Printed floral curtain fabric close-up") | These describe the fabric well but skip location — that's fine, don't force "Mysore" into every single one (would look stuffed). Do add it to 1–2 higher-authority images like the made-to-measure consultation shot: *"Drape at Home consultant showing a curtain against the window to a couple in Mysore"*. |
+| Alt text | Mostly good and descriptive (e.g., "Printed floral curtain fabric close-up") | These describe the fabric well but skip location — that's fine, don't force "Mysore" into every single one (would look stuffed). Do add it to 1–2 higher-authority images like the made-to-measure consultation shot: *"The Draper consultant showing a curtain against the window to a couple in Mysore"*. |
 | Internal links | Links to /motorisation, `/choosing-the-right-curtains`, `/cost-of-curtains-in-mysore`, /contact | ✅ Good internal linking already — this page is doing the internal-linking job better than most others. Use this page as the template for the others. |
 
 ### 3.3 `/blinds`
 | Element | Current | Recommendation |
 |---|---|---|
-| Title | "Blinds in Mysore \| Drape at Home" | ✅ Good. |
+| Title | "Blinds in Mysore \| The Draper" | ✅ Good. |
 | Meta description | ✅ Names all blind types | Add "Mysuru" once, matching the curtains page pattern. |
 | H1 | "Blinds made for your home." | Same fix as curtains: "Blinds in Mysore, made for your home." |
-| Alt text gaps | `"Blinds interior"` on the final showcase image is generic and non-descriptive — a missed opportunity since it's one of the few unbranded alt tags on the site | Rewrite to something like: *"Roller blind dressing a living room window, installed by Drape at Home in Mysore"* |
+| Alt text gaps | `"Blinds interior"` on the final showcase image is generic and non-descriptive — a missed opportunity since it's one of the few unbranded alt tags on the site | Rewrite to something like: *"Roller blind dressing a living room window, installed by The Draper in Mysore"* |
 | Internal links | Links to /motorisation, `/curtains-vs-blinds`, /contact | Add a link to `/best-window-coverings-for-bedrooms` near the Cellular/blackout content, since bedroom light-blocking is a natural bridge. |
 | Canonical | `.../blinds.html` | Fix to `.../blinds` |
 
 ### 3.4 `/motorisation`
 | Element | Current | Recommendation |
 |---|---|---|
-| Title | "Motorised Curtains & Blinds in Mysore \| Drape at Home" | ✅ Strong, matches two secondary targets in one title. |
+| Title | "Motorised Curtains & Blinds in Mysore \| The Draper" | ✅ Strong, matches two secondary targets in one title. |
 | Meta description | ✅ Good | No change needed. |
 | H1 | "Motorisation, made beautifully simple." | This is the one H1 on the site with **zero** location keyword and no "curtains/blinds" noun — for a page targeting "motorised curtains Mysore" / "motorised blinds Mysore," that's a gap. Recommend: **"Motorised curtains & blinds for your Mysore home."** |
 | H2s | "Open your curtains without leaving the sofa" → "Watch it glide open, hands-free" → "Make the whole room easier" | Fine conversationally, but none contain "motorised" or a location term — for a page this reliant on two very specific secondary keywords, work at least one in: e.g. change the closing H2 to **"Motorised curtains and blinds for Mysore homes."** (it already almost says this in body copy — promote it to the heading). |
@@ -136,7 +136,7 @@ Format: current state → recommended change. Where current is already good, mar
 ### 3.5 `/inspiration`
 | Element | Current | Recommendation |
 |---|---|---|
-| Title | "Window covering inspiration for Mysore homes \| Drape at Home" | ✅ Good, natural. |
+| Title | "Window covering inspiration for Mysore homes \| The Draper" | ✅ Good, natural. |
 | H1 | "Ideas for better windows." | Fine as a hub page — doesn't need heavy keyword weight since it's a hub, not a landing target. No change needed. |
 | Structure | Card links to the 4 guides, each with descriptive anchor text | ✅ Good practice already — anchor text like "Why Choosing the Right Curtains Matters" is descriptive, not "click here." Keep this pattern. |
 | Gap | This page has no direct path back to `/curtains` or `/blinds` other than the generic nav | Add 1–2 contextual links, e.g. under the cost guide: "Ready to get a real quote? [Book a home visit]" |
@@ -144,7 +144,7 @@ Format: current state → recommended change. Where current is already good, mar
 ### 3.6 `/about`
 | Element | Current | Recommendation |
 |---|---|---|
-| Title | "About Drape at Home \| Drape at Home" | The brand name is repeated twice back-to-back, which wastes title-tag characters and reads oddly in search results. Recommend: **"About Us \| Made-to-Measure Curtains & Blinds in Mysore \| Drape at Home"** or simply **"About Drape at Home — Mysore's Made-to-Measure Curtains & Blinds Specialist."** |
+| Title | "About The Draper \| The Draper" | The brand name is repeated twice back-to-back, which wastes title-tag characters and reads oddly in search results. Recommend: **"About Us \| Made-to-Measure Curtains & Blinds in Mysore \| The Draper"** or simply **"About The Draper — Mysore's Made-to-Measure Curtains & Blinds Specialist."** |
 | Meta description | ✅ Good, already names the service and location | No change needed. |
 | H1 | "Your windows, styled around your home." | Fine for a trust/brand page — no location needed here, this page's job is trust not ranking for transactional terms. |
 | Internal links | Only links to `/contact` | Add at least one link into `/curtains` or `/blinds` from the "40+ years" trust section, since a reader convinced by the About page should be routed toward a product page, not only the booking form. |
@@ -153,7 +153,7 @@ Format: current state → recommended change. Where current is already good, mar
 ### 3.7 `/contact`
 | Element | Current | Recommendation |
 |---|---|---|
-| Title | "Book a Home Visit in Mysore \| Drape at Home" | ✅ Good, action-oriented. |
+| Title | "Book a Home Visit in Mysore \| The Draper" | ✅ Good, action-oriented. |
 | Meta description | ✅ Good, specific | No change needed. |
 | H1 | "Let's talk about your windows." | Fine — this is a conversion page, not a ranking target; don't force keywords into a form-page H1. |
 | Form field: "Area in Mysore" | ✅ Nice touch — this doubles as implicit local signal-gathering and reinforces locality to the visitor. | Keep. |
@@ -164,7 +164,7 @@ Format: current state → recommended change. Where current is already good, mar
 See §2.2 above — recommend consolidating into `/curtains` rather than optimizing in parallel. If you keep it standalone:
 | Element | Current | Recommendation |
 |---|---|---|
-| Title | "Curtains in Mysuru \| Drape at Home" | Differentiate further from `/curtains`'s "Curtains in Mysore" title, e.g. by area-focus: "Curtains in Mysuru — Home Visit Curtain Service \| Drape at Home" |
+| Title | "Curtains in Mysuru \| The Draper" | Differentiate further from `/curtains`'s "Curtains in Mysore" title, e.g. by area-focus: "Curtains in Mysuru — Home Visit Curtain Service \| The Draper" |
 | H1 | "Curtains in Mysuru, made for your home." | ✅ Good keyword placement, better than the main `/curtains` H1 actually. |
 | Content overlap | Steps 01–04 and closing CTAs are near-identical to `/curtains`' content, just reworded | This is the cannibalization risk described in §2.2 — needs unique value (specific neighbourhoods served, Mysuru-specific testimonial, etc.) or should redirect. |
 | Canonical | `.../curtains-mysore.html` | Fix to `.../curtains-mysore` |
@@ -175,7 +175,7 @@ See §2.2 above — recommend consolidating into `/curtains` rather than optimiz
 ### 3.10 `/curtain-blinds-mysore`
 | Element | Current | Recommendation |
 |---|---|---|
-| Title | "Curtains & Blinds in Mysuru \| Drape at Home" | ✅ Distinct enough from the other two — this page's "whole-home, every room" angle is a genuinely different search intent (someone furnishing multiple rooms at once), so it's the one city-page worth keeping independently of the Option A consolidation. |
+| Title | "Curtains & Blinds in Mysuru \| The Draper" | ✅ Distinct enough from the other two — this page's "whole-home, every room" angle is a genuinely different search intent (someone furnishing multiple rooms at once), so it's the one city-page worth keeping independently of the Option A consolidation. |
 | H1 | "Curtains & blinds in Mysuru." | Good. Consider: "Curtains & blinds in Mysuru, one home visit." to reinforce the unique "one consultation for the whole house" angle in the H1 itself, not just body copy. |
 | Canonical | `.../curtain-blinds-mysore.html` | Fix to `.../curtain-blinds-mysore` |
 
