@@ -2,6 +2,18 @@
   publish = "."
 
 [[redirects]]
+  from = "https://thedraper.netlify.app/*"
+  to = "https://www.draper.in/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://draper.in/*"
+  to = "https://www.draper.in/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/curtains-mysore"
   to = "/curtains"
   status = 301

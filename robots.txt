@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://thedraper.netlify.app/sitemap.xml
+Sitemap: https://www.draper.in/sitemap.xml
