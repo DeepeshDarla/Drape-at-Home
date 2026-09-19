@@ -5,7 +5,7 @@ Static, responsive website for The Draper, Mysuru.
 ## Deployment
 
 This repo is connected to Netlify for continuous deployment: pushes to `main`
-build and deploy automatically to https://drapehomes.netlify.app.
+build and deploy automatically to https://thedraper.netlify.app.
 
 - Netlify → Forms has the `home-visit` form enabled; confirm email notifications are on.
 - Netlify project settings → Build & deploy → Continuous deployment shows the

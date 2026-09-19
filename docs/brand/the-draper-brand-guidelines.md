@@ -58,7 +58,7 @@ Canonical master assets are stored in:
 `/public/brand/logo/`
 
 Master monogram:
-`the-draper-monogram-master.jpg`
+`the-draper-monogram-master.png`
 
 Master primary logo:
 `the-draper-primary-logo-master.png`

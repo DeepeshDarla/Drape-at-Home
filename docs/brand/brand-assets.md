@@ -3,7 +3,7 @@
 ## Canonical Logo Assets
 
 Monogram master:
-`/public/brand/logo/the-draper-monogram-master.jpg`
+`/public/brand/logo/the-draper-monogram-master.png`
 
 Primary logo master:
 `/public/brand/logo/the-draper-primary-logo-master.png`
