@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.draper.in/sitemap.xml
+Sitemap: https://www.thedraper.in/sitemap.xml

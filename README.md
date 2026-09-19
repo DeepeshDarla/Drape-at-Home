@@ -6,7 +6,7 @@ Static, responsive website for The Draper, Mysuru.
 
 This repo is connected to Netlify for continuous deployment: pushes to `main`
 build and deploy automatically. The production domain is
-https://www.draper.in — the underlying Netlify subdomain
+https://www.thedraper.in — the underlying Netlify subdomain
 (https://thedraper.netlify.app) still serves the same build and redirects to
 the production domain.
 

@@ -3,13 +3,13 @@
 
 [[redirects]]
   from = "https://thedraper.netlify.app/*"
-  to = "https://www.draper.in/:splat"
+  to = "https://www.thedraper.in/:splat"
   status = 301
   force = true
 
 [[redirects]]
-  from = "https://draper.in/*"
-  to = "https://www.draper.in/:splat"
+  from = "https://thedraper.in/*"
+  to = "https://www.thedraper.in/:splat"
   status = 301
   force = true
 
